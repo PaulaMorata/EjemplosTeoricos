@@ -6,7 +6,7 @@ public class BusquedaBinaria {
 		this.claves = claves;
 	}
 	
-	//Método fachada del de abajo
+	//Método fachada del de abajo:
 	public int busca(String clave) {
 		return busca(clave, 0, claves.length);
 	}
